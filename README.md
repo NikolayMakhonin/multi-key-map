@@ -20,7 +20,7 @@ Config:
 ```cmd
 (
 SET TEMPLATE_BRANCH=browser-helpers
-SET TEMPLATE_REPO=https://github.com/NikolayMakhonin/app-template.git
+SET TEMPLATE_REPO=https://github.com/NikolayMakhonin/multi-key-map.git
 SET /p DIR_NAME=Enter project directory name:
 SET /p YOUR_REPO_URL=Enter your new clear repository url:
 )
@@ -46,7 +46,7 @@ git branch -u origin/master master
 
 Or you can just clone repository without history using this command:
 ```bash
-npx degit NikolayMakhonin/app-template#browser-helpers <app name> && cd <app name> && npm i && npm run test
+npx degit NikolayMakhonin/multi-key-map#browser-helpers <app name> && cd <app name> && npm i && npm run test
 ```
 
 # Testing
@@ -106,14 +106,14 @@ addons:
 
 [CC0-1.0](LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/app-template.svg
-[npm-url]: https://npmjs.org/package/app-template
-[node-version-image]: https://img.shields.io/node/v/app-template.svg
+[npm-image]: https://img.shields.io/npm/v/multi-key-map.svg
+[npm-url]: https://npmjs.org/package/multi-key-map
+[node-version-image]: https://img.shields.io/node/v/multi-key-map.svg
 [node-version-url]: https://nodejs.org/en/download/
-[travis-image]: https://travis-ci.org/NikolayMakhonin/app-template.svg?branch=browser-helpers
-[travis-url]: https://travis-ci.org/NikolayMakhonin/app-template?branch=browser-helpers
-[coveralls-image]: https://coveralls.io/repos/github/NikolayMakhonin/app-template/badge.svg?branch=browser-helpers
-[coveralls-url]: https://coveralls.io/github/NikolayMakhonin/app-template?branch=browser-helpers
-[downloads-image]: https://img.shields.io/npm/dm/app-template.svg
-[downloads-url]: https://npmjs.org/package/app-template
-[npm-url]: https://npmjs.org/package/app-template
+[travis-image]: https://travis-ci.org/NikolayMakhonin/multi-key-map.svg?branch=browser-helpers
+[travis-url]: https://travis-ci.org/NikolayMakhonin/multi-key-map?branch=browser-helpers
+[coveralls-image]: https://coveralls.io/repos/github/NikolayMakhonin/multi-key-map/badge.svg?branch=browser-helpers
+[coveralls-url]: https://coveralls.io/github/NikolayMakhonin/multi-key-map?branch=browser-helpers
+[downloads-image]: https://img.shields.io/npm/dm/multi-key-map.svg
+[downloads-url]: https://npmjs.org/package/multi-key-map
+[npm-url]: https://npmjs.org/package/multi-key-map
