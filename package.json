@@ -1,14 +1,31 @@
 {
   "name": "multi-key-map",
   "version": "0.0.1",
-  "description": "App Template",
-  "author": "App Template",
-  "homepage": "",
+  "description": "Fast multiple keys map",
+  "author": "Nikolay Makhonin",
+  "homepage": "https://github.com/NikolayMakhonin/multi-key-map",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/NikolayMakhonin/multi-key-map/issues"
   },
   "license": "CC0-1.0",
-  "keywords": [],
+  "keywords": [
+    "multiple",
+    "multi",
+    "many",
+    "keys",
+    "key",
+    "multi-keys",
+    "multi-key",
+    "multikeys",
+    "multikey",
+    "map",
+    "multimap",
+    "dictionary",
+    "dict",
+    "hashtable",
+    "hashmap",
+    "hash"
+  ],
   "files": [
     "dist/sapper/export/**"
   ],
